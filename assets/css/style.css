@@ -2,3 +2,42 @@
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
 }
+
+
+body {
+  background-color: #090E16;
+}
+
+.container {
+  max-width: 1608px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 328px;
+  }
+}
+
+/****************
+HEADER
+*****************/
+
+.social-link-icon-1 {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-radius: 50%;
+  color: #090E16;
+}
+
+.social-link-icon-2 {
+  font-size: 32px;
+  color: #84878b;
+}
+
+.img-header {
+  max-width: 308px;
+  border-radius: 50%;
+}
