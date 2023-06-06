@@ -1,9 +1,5 @@
 {
-    "id": 1,
-    "title": "Hello World",
-    "completed": false,
-    "test": {
-      "params1": "oi",
-      "param2": "tchau"
-    }
+  "t-greetings": "👋 Saudações",
+  "t-page-title": "Gabriel Fritz",
+  "t-page-description": "Full-stack developer"
 }
