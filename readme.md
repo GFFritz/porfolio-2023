@@ -3,8 +3,8 @@
 
 - Based on Henrique Sousa layout on Figma 
 
-# Requirements
+### Requirements
 - NPM
 
-# To install need to run the following command
+### To install need to run the following command
 - npm i or npm install
