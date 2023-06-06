@@ -7,4 +7,4 @@
 - NPM
 
 ### To install need to run the following command
-- npm i or npm install
+- `npm i` or `npm install`
