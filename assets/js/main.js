@@ -31,6 +31,7 @@ readTextFile(getLangFile(), function(text){
     var array = JSON.parse(text);
 
     for (const [key, value] of Object.entries(array)) {
+        // Use the key to find the ID of element and update the content
         $(`#${key}`).html(value)
     }
 });
