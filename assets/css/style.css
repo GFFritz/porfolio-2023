@@ -257,17 +257,10 @@ Sliders
   --carousel-min-width: 405px;
   z-index: 1;
   position: relative;
-  /* margin: 0 auto; */
   width: 100%;
   height: var(--card-height);
   min-width: var(--carousel-min-width);
   transition: filter .3s ease;
-}
-
-@media screen and (max-width: 640px) {
-  .card-carousel {
-    /* margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2) */
-  }
 }
 
 .card-carousel.smooth-return {
@@ -295,25 +288,33 @@ Sliders
   cursor: grab;
 }
 
-.project-card.highlight {
-  filter: brightness(1)
+/****************
+Stacks
+*****************/
+
+.stacks-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
+.stacks-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
 
-.project-card:nth-of-type(1) .image-container {
-    background-image: url("https://static.addtoany.com/images/dracaena-cinnabari.jpg");
-}
- 
-.project-card:nth-of-type(2) .image-container {
-  background-image: url("https://www.w3schools.com/w3css/img_lights.jpg")
+.stacks-list i {
+  color: #7B4AE2;
+  font-size: 44px;
+  cursor: pointer;
+  transition: all .4s;
 }
 
-.project-card:nth-of-type(3) .image-container {
-  background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-}
-.project-card:nth-of-type(4) .image-container {
-  background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-}
-.project-card:nth-of-type(5) .image-container {
-  background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
+.stacks-list i:hover {
+  filter: saturate(1.5);
 }
